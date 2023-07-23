@@ -32,3 +32,4 @@ PyJsonEntity中有两个静态方法:`JsonToEntity`和`EntityToJson`
 - 当json反序列化时,如果出现json有键但类没有该成员的情况,会直接忽略
 - 实体类中的None值会被直接省略
 - 如果类成员没有对应的json键,则为初始化的默认值
+- 支持将字典与json互转,将属性设置为:{key:类实例}来反序列化
